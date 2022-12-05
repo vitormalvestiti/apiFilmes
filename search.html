@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Movie App</title>
+</head>
+<body>
+  <div class="container">
+    <nav class="nav-main">
+      <!-- Brand -->
+      <img src="img/brand2.svg" alt="TechNews Logo" class="nav-brand">
+      <!-- Left Nav -->
+      <ul class="nav-menu">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="pages/aboutApi.html">Sobre a api</a>
+        </li>
+        <li>
+          <a href="categorias.html">Categorias</a>
+        </li>
+        <li>
+          <a href="search.html">Pesquisar filme</a>
+        </li>
+      </ul>
+
+      <!-- Right Nav -->
+      <ul class="nav-menu-right">
+        <li>
+          <a href="#">
+            <i class="fas fa-search"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  
+  <h1>Pesquise seu filme favorito</h1>
+  <div class="caixaPesquisa">
+        <form  id="form">
+            <input type="text" placeholder="Pesquisar" id="search" class="search">
+        </form>
+  </div>
+    
+
+    <div id="tags"></div>
+    <div id="myNav" class="overlay">
+
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      
+        
+        <div class="overlay-content" id="overlay-content"></div>
+        
+        <a href="javascript:void(0)" class="arrow left-arrow" id="left-arrow">&#8656;</a> 
+        
+        <a href="javascript:void(0)" class="arrow right-arrow" id="right-arrow" >&#8658;</a>
+
+      </div>
+    <main id="main"></main>
+    <div class="pagination">
+        <div class="page" id="prev">Previous Page</div>
+        <div class="current" id="current">1</div>
+        <div class="page" id="next">Next Page</div>
+
+    </div>
+
+    <script src="buscar/buscar.js"></script>
+</body>
+</html>
