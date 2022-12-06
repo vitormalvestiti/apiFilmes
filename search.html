@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" type="image/svg" href="img/brand.svg">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="styles.css">
     <title>Pesquisar</title>
 </head>
+
 <body>
   <div class="container">
     <nav class="nav-main">
-      <!-- Brand -->
       <img src="img/brand2.svg" alt="TechNews Logo" class="nav-brand">
-      <!-- Left Nav -->
       <ul class="nav-menu">
         <li>
-          <a href="index.html">Home</a>
+          <a href="index.html">Inicio</a>
         </li>
         <li>
-          <a href="pages/aboutApi.html">Sobre a api</a>
+          <a href="sobre.html">Sobre a api</a>
         </li>
         <li>
           <a href="categorias.html">Categorias</a>
@@ -26,9 +26,10 @@
         <li>
           <a href="search.html">Pesquisar filme</a>
         </li>
+        <li>
+          <a href="Contato.html">Inscrever-se</a>
+        </li>
       </ul>
-
-      <!-- Right Nav -->
       <ul class="nav-menu-right">
         <li>
           <a href="#">
@@ -38,36 +39,25 @@
       </ul>
     </nav>
   </div>
-  
   <h1>Pesquise seu filme favorito</h1>
   <div class="caixaPesquisa">
         <form  id="form">
             <input type="text" placeholder="Pesquisar" id="search" class="search">
         </form>
   </div>
-    
-
     <div id="tags"></div>
     <div id="myNav" class="overlay">
-
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      
-        
         <div class="overlay-content" id="overlay-content"></div>
-        
         <a href="javascript:void(0)" class="arrow left-arrow" id="left-arrow">&#8656;</a> 
-        
         <a href="javascript:void(0)" class="arrow right-arrow" id="right-arrow" >&#8658;</a>
-
       </div>
     <main id="main"></main>
     <div class="pagination">
         <div class="page" id="prev">Previous Page</div>
         <div class="current" id="current">1</div>
         <div class="page" id="next">Next Page</div>
-
     </div>
-
     <script src="buscar/buscar.js"></script>
 </body>
 </html>

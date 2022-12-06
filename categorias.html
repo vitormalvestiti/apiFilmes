@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="styles.css">
-    <title>Categorias</title>
-</head>
-<body>
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/svg" href="img/brand.svg">
+  <title>Categorias</title>
+</head>
+
+<body>
   <div class="container">
     <nav class="nav-main">
-      <!-- Brand -->
       <img src="img/brand2.svg" alt="TechNews Logo" class="nav-brand">
-      <!-- Left Nav -->
       <ul class="nav-menu">
         <li>
-          <a href="index.html">Home</a>
+          <a href="index.html">Inicio</a>
         </li>
         <li>
-          <a href="pages/aboutApi.html">Sobre a api</a>
+          <a href="sobre.html">Sobre a api</a>
         </li>
         <li>
           <a href="categorias.html">Categorias</a>
@@ -27,9 +27,10 @@
         <li>
           <a href="search.html">Pesquisar filme</a>
         </li>
+        <li>
+          <a href="Contato.html">Inscrever-se</a>
+        </li>
       </ul>
-
-      <!-- Right Nav -->
       <ul class="nav-menu-right">
         <li>
           <a href="#">
@@ -39,25 +40,15 @@
       </ul>
     </nav>
   </div>
-    
-    <h1>Descubra filmes e series em alta por categoria</h1>
-    <div id="tags"></div>
-
-    <div id="myNav" class="overlay">
-
-        
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      
-        
-        <div class="overlay-content" id="overlay-content"></div>
-        
-        <a href="javascript:void(0)" class="arrow left-arrow" id="left-arrow">&#8656;</a> 
-        
-        <a href="javascript:void(0)" class="arrow right-arrow" id="right-arrow" >&#8658;</a>
-
-      </div>
-    <main id="main"></main>
-
-    <script src="script.js"></script>
+  <h1>Descubra filmes e series em alta por categoria</h1>
+  <div id="tags"></div>
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content" id="overlay-content"></div>
+    <a href="javascript:void(0)" class="arrow left-arrow" id="left-arrow">&#8656;</a>
+    <a href="javascript:void(0)" class="arrow right-arrow" id="right-arrow">&#8658;</a>
+  </div>
+  <main id="main"></main>
+  <script src="script.js"></script>
 </body>
 </html>

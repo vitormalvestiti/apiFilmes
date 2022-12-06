@@ -80,29 +80,57 @@ hr {
   opacity: 0.9;
 }
 
+/*Showcase home*/
 .showcase {
   width: 100%;
-  height: 550px;
+  height: 900px;
   background: url("./img/showcase2.jpg") no-repeat center center/cover;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
   text-align: center;
-  justify-content: flex-end;
-  padding-bottom: 50px;
-  margin-bottom: 20px;
-  color: #fff;
+
+  
 }
 
-.showcase h2,
+.showcase h2{
+  font-size: 25px;
+  font-weight: bold;
+}
 .showcase p {
-  margin-bottom: 10px;
+  font-size: 18px;
 }
 
-.showcase .btn {
+.showcase {
+  margin-top: 20px;
+}
+/*showcase sobre*/
+.showcasee {
+  width: 100%;
+  height: 900px;
+  background: url("./img/showcase.jpg") no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  opacity: 1;
+}
+
+.showcasee h2{
+ font-size: 25px;
+ font-weight: bold;
+}
+.showcasee p {
+  font-size: 18px;
+}
+
+.showcasee{
   margin-top: 20px;
 }
 
+.box{
+padding: 15px;
+}
 
 
 /* Mobil */
